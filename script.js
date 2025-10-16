@@ -127,7 +127,7 @@ state: "tamilnadu"
 const {names,age,address:{city,state}} = obj
 console.log(names,age,city,state);
 */
-
+/*
 const shop = [
    {
     item:"rice",
@@ -147,4 +147,8 @@ const shop = [
 ]
 
 const [{item,price,category}] = shop
-console.log(item,price,category);
+shop.forEach(({item,price,category})=>{
+    console.log(item,price,category);
+    
+})
+*/
